@@ -38,3 +38,91 @@ body{
 .corpo{
 
 }
+.corpo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.texto-do-corpo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.titulo-texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 160%;
+    /* or 80px */
+    color: #FFFFFF;
+}
+.paragrafo-texto{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    color: #FFFFFF;
+}
+.botoes{
+    flex-direction: row;
+}
+.botao-da-nav{
+    width: 104px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #116CFF;
+}
+.botao1{
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #116CFF;
+}
+.botao2{
+    background-color: #116CFF;
+    width: 200px;
+    height: 52px;
+    left: 324px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+@media screen and (min-width: 1000px) {
+    .imagem-principal{
+        flex-wrap: wrap-reverse;
+    }
+}
