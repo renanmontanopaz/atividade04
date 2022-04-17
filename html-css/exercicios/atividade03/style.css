@@ -43,6 +43,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    padding: 100px;
 }
 .texto-do-corpo{
     display: flex;
@@ -121,8 +123,30 @@ body{
 
     color: #FFFFFF;
 }
-@media screen and (min-width: 1000px) {
-    .imagem-principal{
-        flex-wrap: wrap-reverse;
-    }
+.tela02{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 100px;
+}
+.titulo-tela02{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+    color: #00235C;
+}
+.paragrafo-texto02{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+    color: #00235C;
 }
