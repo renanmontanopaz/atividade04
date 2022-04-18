@@ -175,7 +175,128 @@ section {
     /* or 250% */
     color: #FFFFFF;
 }
+.tela04{
+    background-color: #FFFFFF;
+    display: flex;
 
+}
+.titulo-tela04{
+    align-items: flex-start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+    color: #116CFF;
+}
+.baloes{
+    align-items: center;
+
+}
+.balao1{
+    flex-direction: row;
+}
+.balao1b{
+    background: #E7F0FF;
+    border-radius: 20px;
+    width: 440px;
+    height: 187px;
+
+
+}
+.pessoa1{
+
+}
+
+.tela05{
+    background-color: #116CFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-tela05{
+    margin: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    /* identical to box height, or 139% */
+    color: #FFFFFF;
+}
+table{
+    width: 1266px;
+    height: 474px;
+}
+.coluna1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #00235C;
+}
+.coluna02{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+
+
+    color: #00235C;
+}
+thead{
+    background-color: #E7F0FF;
+    width: 1166px;
+    height: 115px;
+    border-radius: 10px 10px 0px 0px;
+}
+.estrela1{
+    flex-direction: row;
+}
+tbody{
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+
+    color: #116CFF;
+}
+.td4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #00235C;
+}
+.free{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #FF463A;
+}
 @media screen and (max-width: 1200px){
     .cabecalho-logo{
         width: 100px;
@@ -215,5 +336,9 @@ section {
     }
     .tela03{
         flex-direction: column-reverse;
+    }
+    table{
+        width: 66px;
+        height: 74px;
     }
 }
