@@ -297,6 +297,79 @@ tbody{
 
     color: #FF463A;
 }
+.tela06{
+    background: #FFFFFF;
+    align-items: center;
+}
+.head-formulario{
+    flex-direction: row;
+    align-items: center;
+}
+.titulo-form{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    /* or 139% */
+
+    text-align: center;
+
+    color: #00235C;
+}
+form{
+    width: 546px;
+    height: 309px;
+    align-items: center;
+}
+label{
+    margin-bottom: 0.2em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 156% */
+
+    text-align: center;
+
+    color: #00235C;
+}
+fieldset{
+    border: 0;
+
+}
+input{
+    align-items: center;
+    width: 394px;
+    height: 52px;
+    left: 562px;
+    top: 180px;
+
+    border: 1px solid #BCD6FF;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.campo{
+    margin-bottom: 2em;
+}
+.botao-form{
+    background-color: #116CFF;
+    width: 200px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
 @media screen and (max-width: 1200px){
     .cabecalho-logo{
         width: 100px;
