@@ -196,8 +196,8 @@ section {
     align-items: center;
 
 }
-.balao1{
-    flex-direction: row;
+.dois-baloes{
+    flex-wrap: wrap;
 }
 .balao1b{
     background: #E7F0FF;
@@ -326,9 +326,11 @@ td{
     gap: 150px;
 }
 .head-formulario{
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    margin-top: 100px;
 }
+
 .titulo-form{
     font-family: 'Inter';
     font-style: normal;
@@ -336,7 +338,7 @@ td{
     font-size: 36px;
     line-height: 50px;
     /* or 139% */
-
+    margin-top: 100px;
     text-align: center;
 
     color: #00235C;
@@ -382,6 +384,9 @@ input{
 .campo{
     margin-bottom: 2em;
 }
+.campo-botao{
+    justify-items: left;
+}
 .botao-form{
     background-color: #116CFF;
     width: 200px;
@@ -395,30 +400,44 @@ input{
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    align-content: left;
+
 
     color: #FFFFFF;
 }
+
 .rodape{
     background-color: #00235C;
-    position: relative;
+    display: flex;
 }
-.rodape-direito{
-    position: relative;
-    margin-left: 50px;
-}
-.icones{
+.navs{
+    margin: 100px;
+    gap: 100px;
+    display: flex;
     flex-direction: row;
+    justify-content: flex-end;
+
 
 }
-.texto-footer{
+.menu-footer1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 98% */
+
+    letter-spacing: 0.02em;
+    margin: 30px 0px;
+    color: #116CFF;
+}
+.menu-footer{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 18px;
     /* identical to box height, or 110% */
-
+    margin: 30px;
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
@@ -471,8 +490,11 @@ input{
     .tela03{
         flex-direction: column-reverse;
     }
-    .table{
-        width: 66px;
-        height: 74px;
+    .rodape{
+        flex-direction: column;
+    }
+    .navs{
+        flex-direction: column;
+        gap: 10px;
     }
 }
