@@ -47,6 +47,7 @@ section {
 
 }
 .texto-do-corpo{
+    margin: 20px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -177,40 +178,86 @@ section {
     color: #FFFFFF;
 }
 .tela04{
+    background:url("kingdom.png") no-repeat right top;
     background-color: #FFFFFF;
     display: flex;
-    
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 .titulo-tela04{
-    align-items: flex-start;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
     /* identical to box height, or 139% */
+
+
     color: #116CFF;
 }
+.nome-pessoa{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+
+    color: #00235C;
+}
+.depoi-pessoa{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #00235C;
+}
 .baloes{
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.baloes-esquerda {
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 50px;*/
+}
+.baloes-direita {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
 
 }
-.dois-baloes{
-    flex-wrap: wrap;
+.baloes{
+    display: flex;
+    flex-direction: row;
 }
-.balao1b{
-    background: #E7F0FF;
-    border-radius: 20px;
+.avatar-crianca{
+    width: 65px;
+    height: 64.1px;
+    margin: 30px;
+}
+
+.testimonybox1{
+    background-color: #E7F0FF;
+    border-radius: 10px;
+    padding: 20px;
     width: 440px;
     height: 187px;
-
-
+    position: relative;
+    margin: 35px auto;
 }
-.pessoa1{
-
+.seta{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -5px;
+    top: 36px;
+    background-color: #E7F0FF;
+    transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
 }
-
 .tela05{
     background-color: #116CFF;
     display: flex;
@@ -338,7 +385,7 @@ td{
     font-size: 36px;
     line-height: 50px;
     /* or 139% */
-    margin-top: 100px;
+    margin-top: 20px;
     text-align: center;
 
     color: #00235C;
@@ -489,6 +536,9 @@ input{
     }
     .tela03{
         flex-direction: column-reverse;
+    }
+    .tela04{
+        flex-direction: column;
     }
     .rodape{
         flex-direction: column;
